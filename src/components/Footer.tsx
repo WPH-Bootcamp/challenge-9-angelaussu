@@ -71,11 +71,3 @@ function FooterLink({
     </li>
   );
 }
-
-function IconWrapper({ children }: { children: React.ReactNode }) {
-  return (
-    <span className="p-2 rounded-full border border-white/20 hover:bg-white hover:text-black transition-colors cursor-pointer text-sm">
-      {children}
-    </span>
-  );
-}

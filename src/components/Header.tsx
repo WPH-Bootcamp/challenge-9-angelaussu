@@ -1,7 +1,8 @@
 // src/components/Header.tsx
 import React, { useEffect, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import { Button } from "./ui/Button";
+import { Button } from "@/components/ui/button";
+
 import Logo from "../assets/white-sun.svg";
 import LogoBlack from "../assets/red-sun.svg";
 import Cart from "../assets/bag.svg";
