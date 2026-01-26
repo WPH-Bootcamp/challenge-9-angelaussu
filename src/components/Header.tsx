@@ -14,7 +14,7 @@ export const Header: React.FC = () => {
   const location = useLocation();
   const isHome = location.pathname === "/";
   const navigate = useNavigate();
-  const { user, logout } = useAuth();
+  const { user } = useAuth();
   const { summary } = useCart();
   const totalQty = summary.totalItems;
 
